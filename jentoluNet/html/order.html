@@ -1,0 +1,123 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+	
+	<link rel="stylesheet" href="../css/css.css"/>
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+		<link rel="shortcut icon" href="../img/icon.jpg">
+<script type="text/javascript">
+	
+	
+function gate(){
+   // ▼ユーザの入力を求める
+   var UserInput = prompt("パスワードを入力して下さい:","");
+   // ▼入力内容をチェック
+   if( /\W+/g.test(UserInput) ) {
+      // ▼半角英数字以外の文字が存在したらエラー
+      alert("半角英数字のみを入力して下さい。");
+   }
+   // ▼キャンセルをチェック
+   else if( UserInput != null ) {
+      // ▼入力内容からファイル名を生成して移動
+      location.href = UserInput + ".html";
+   }
+}
+</script>
+</head>
+<body>
+<div>
+		<header>
+			<h1 align="left"><a href="../../index.html"><font color="white">じぇんとるウィッグ</font></a></h1>
+			
+		<div class="menu" align="center">
+			<table>
+				<th>
+					<a href="./about.html"><font color="white">about</font></a>
+				</th>
+				<th>
+					<a href="./gallery.html"><font color="white">gallery</font></a>
+				</th>
+				<th>
+					<a href="./price.html"><font color="white">price</font></a>
+				</th>
+				<th>
+					<a href="./order.html"><font color="white">order</font></a>
+				</th>
+			</table>
+		</div>
+		</header>
+	</div>
+	<div class="details">
+		<h1><font size="10" color="white">order</font></h1>
+	</div>
+	<br><br>
+	<div style="margin:20;" class="order-font">
+	<h1>
+		下記の注意事項を熟読の上、発注依頼をお願いします。
+	</h1>
+	<br><br><br>
+	<h3>
+		【ご注文の流れ】<br>
+		①まずは見積もりのご相談を「じぇんとるウィッグ公式LINE」にて問い合わせ下さい。<br>
+		制作の可否とお見積もりを税込価格でご提示させて頂きます。<br><br>
+		
+		細かいご要望がある場合は、お見積もり前にご相談ください。<br><br>
+		<div align="center">↓</div>
+		<br><br>
+		②お見積もり後、金額・納期に問題なければ、発注依頼を出して頂きます。<br><br>
+		<div align="center">↓</div>
+		<br><br>
+		③発注依頼を出して頂きましたら、確認後メールアドレスにてお支払い方法のご案内をさせて頂きます。<br>
+		お支払い期限は、１週間以内です。※難しい場合はご相談下さい。<br><br>
+		<div align="center">↓</div>
+		<br><br>
+		④ご入金確認後、制作を開始致します。ご入金頂いた方から順番に製作致します。制作期間は１週間〜１ヶ月程度です。<br><br>
+		<div align="center">↓</div>
+		<br><br>
+		⑤制作完了後、お客様に完成画像をLINE、またはメールアドレスにてご連絡致します。<br /><br />
+		※注意事項<br />
+発送前に完成画像をお送りしますので、その際に何かございましたらご連絡をお願い致します。<br />
+輸送中のセット崩れに関しては一切責任を負えません。<br />
+手元に届いてからの手直しをお求めになる場合、送料はお客様負担となります。
+		<br><br>
+		<div align="center">↓</div>
+		<br><br>
+		⑥完成品に問題なければ、発送致します。発送後、お問い合わせ送り状番号をお知らせ致します。
+	</h3>
+</div>
+	<br /><br /><br />
+	<div style="text-align:center;">
+	<div class="container">
+		<a href="https://lin.ee/VGtJ2wu" class="btn-push">まずはお見積もりから！</a>
+</div>
+</div>
+	
+	<br /><br />	<br /><br />
+	<br /><br /><br />
+	<div style="text-align:center;">
+	<div class="container">
+<a class="btn-animation-02" onclick="gate();"><span>発注依頼はこちら<span></a>
+</div>
+	<h3 style="color:white;">
+		※発注依頼は、公式ラインでの問い合わせ・お見積もり<br />
+		を頂いた方のみです。
+	</h3>
+</div>
+		<br /><br /><br /><br />
+
+	
+	
+	<footer style="background-color:#4764b5">
+		<br />
+		<div align="center"><a href="info.html"><u><font color="white" size="2.5">特定商取引法に基づく表記</u></font></a></div>
+		<br />
+		<p align="center" style="margin:0;">
+			<font color="white" size="2">掲載されているすべてのコンテンツ<br />
+			(記事、画像、等)の無断転載を禁じます。</font><br /><br />
+			<font color="white">じぇんとる</font>
+		</p>
+	</footer>
+	
+</body>
+</html>

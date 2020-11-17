@@ -1,0 +1,374 @@
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+	.huhu{
+		width: 250;	
+	}
+	
+	.popo{
+		color: white;
+	}
+	
+	
+	
+	
+	.btn-push {
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.btn-push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* ここから下がボタンのCSS　*/
+.btn-animation-02 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #9ec34b;
+  border: 2px solid #9ec34b;
+  font-size: 16px;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.btn-animation-02 span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-animation-02::before,
+.btn-animation-02::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.btn-animation-02::before {
+  left: 0;
+}
+.btn-animation-02::after {
+  right: 0;
+}
+
+.btn-animation-02:hover:before,
+.btn-animation-02:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.btn-animation-02:hover {
+  color: #FFF;
+}
+	
+	
+	
+	.aaaiii{
+		text-align: center;
+	}
+	
+	
+	/* PC用CSS記述 */
+	body{
+		margin: 0;
+		background-image: url("../img/back.jpg");
+	}
+	div.top{
+		margin-top: 142px;
+	}
+a {
+  text-decoration: none;
+}
+
+.about-font{
+	text-align: center;
+	color: white;
+	font-size: 15;
+}
+img{
+	margin: 0;
+}
+
+	 
+body { 
+	font-family: "M PLUS 1p"; 
+}
+
+	 
+table{
+	width: 60%;
+}
+
+}
+.order-font{
+
+	color: white;
+	font-size: 15;
+}
+
+th{
+	font-size: 120%;
+	color: white;
+}
+
+header{
+	height: 150px;
+	position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 140px;              /* 縦幅140px */
+	background-image: url("../img/aaa.jpg");
+	z-index: 99
+
+}
+
+.details{
+	margin-top: 142px;
+	text-align: left;
+}
+.details h1{
+	margin-left: 20;
+}
+
+@keyframes slidy {
+	
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+	div#slider figure img { width: 20%;hight:auto; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+
+
+@media screen and (max-width:768px) {
+
+	/* スマートフォン用CSS記述 */
+	div.top{
+		margin-top: 142px;
+	}
+	body { font-family: "M PLUS 1p"; 
+		margin: 0;
+		background-image: url("../img/back.jpg");
+	}
+a {
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+	
+	 
+th{
+	font-size: 100%;
+	color: white;
+}
+
+table{
+	width: 80%;
+}
+
+header{
+	height: 150px;
+	position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 140px;              /* 縦幅140px */
+	background-image: url("../img/aaa.jpg");
+
+}
+
+@keyframes slidy {
+	
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+	div#slider figure img { width: 20%;hight:auto; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+.details{
+	margin-top: 142px;
+	text-align: center;
+}
+
+.font{
+	font-size: 17;	
+}
+.vvv{
+	font-size: 22;
+}
+.bbb{
+	font-size: 28;
+}
+.hhh{
+	width: 300;	
+}
+.ggg{
+	width: 30;
+}
+.about-font{
+	text-align: center;
+	color: white;
+	font-size: 15;
+}
+.order-font{
+
+	color: white;
+	font-size: 10;
+}
+/* ここから下がボタンのCSS　*/
+.btn-animation-02 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color: #9ec34b;
+  border: 2px solid #9ec34b;
+  font-size: 16px;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.btn-animation-02 span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-animation-02::before,
+.btn-animation-02::after {
+  content: "";
+  display: block;
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: .2s;
+}
+.btn-animation-02::before {
+  left: 0;
+}
+.btn-animation-02::after {
+  right: 0;
+}
+
+.btn-animation-02:hover:before,
+.btn-animation-02:hover:after {
+  width: 0;
+  background-color: #FFF;
+}
+
+.btn-animation-02:hover {
+  color: #FFF;
+}
+
+.aaaiii{
+		text-align: center;
+	}
+.huto{
+	font-weight: 40;
+}
+	
+	.huhu{
+		width: 150;	
+	}
+	.popo{
+		color: white;
+	}
+	.popo h3{
+		margin-left: 20;
+	}
+	.btn-push {
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.btn-push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+
