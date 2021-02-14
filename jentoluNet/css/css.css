@@ -70,7 +70,7 @@
 }
 .btn-animation-02::after {
   right: 0;
-}
+}a
 
 .btn-animation-02:hover:before,
 .btn-animation-02:hover:after {
@@ -138,7 +138,6 @@ header{
     width: 100%;                /* 横幅100%　*/
     height: 140px;              /* 縦幅140px */
   background-image: url("../img/aaa.jpg");
-  background-size: cover;
 	z-index: 99
 
 }
